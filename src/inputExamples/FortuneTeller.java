@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class FortuneTeller 
 {
+
 	public static void main(String[] args)
 	{
 		//initialize variables
@@ -12,11 +13,11 @@ public class FortuneTeller
 		Scanner input = new Scanner(System.in);
 		
 		//recieve input
-		System.out.println("Enter your weight: ");
+		System.out.print("Enter your weight: ");
 		weight = input.nextInt();
-		System.out.println("Enter your age: ");
+		System.out.print("Enter your age: ");
 		age = input.nextInt();
-		System.out.println("Enter your lucky number: ");
+		System.out.print("Enter your lucky number: ");
 		luckyNumber = input.nextInt();
 		
 		//construct response
